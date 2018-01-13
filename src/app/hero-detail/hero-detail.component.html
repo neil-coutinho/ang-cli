@@ -1,4 +1,6 @@
+
 <div *ngIf="hero">
   <p>Hero id: {{hero.id}}</p>
   <p>Hero name: <input name="hero" id="hero" [(ngModel)]=hero.name/></p>
+  <button (click)="goBack();">Go Back</button>
 </div>
